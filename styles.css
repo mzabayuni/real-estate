@@ -253,6 +253,7 @@ nav{
 
   .grid-3-cols{
       display: flex;
+      padding-bottom: 0;
       
   }
 
@@ -397,7 +398,7 @@ nav{
 
   .subscribe {
      background: rgb(7, 13, 27);
-     height: 50vh;
+     height: 40vh;
      align-items: center;
      color: #fff;
      text-align: center;
@@ -405,7 +406,7 @@ nav{
   }
 
   .subscribe h3{
-      padding-top: 7rem;
+      padding-top: 5rem;
       padding-bottom: 10px;
       font-size: 180%;
       font-weight: 300;
@@ -421,8 +422,154 @@ footer h5{
     padding-bottom: 5px;
 }
 
-
 @media screen and (max-width: 657px){
+    html{
+        margin: 0;
+    }
+
+    .header-1{
+        width: 100%;
+        height: 70vh;
+    }
+
+    section{
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .nav-items{
+        display: none;
+    }
+
+    .hamburger{
+        display: flex;
+    }
+
+    .welcome{
+        padding: 10px;
+    }
+
+    .welcome h1{
+        font-size: 100%;
+    }
+
+    .text-box{
+        width: 50%;
+    }
+
+    .grid-item{
+        padding-top: 30px;
+    }
+
+    .grid-items p{
+        font-size: 90%;
+    }
+
+    .mobile{
+        width: 70%;
+        height: 100vh;
+    }
+
+    .div-1{
+        margin: 0;
+    }
+
+    .grid-col1 h3{
+        font-size: 100%;
+    }
+
+    .grid-col1 p{
+        font-size: 80%;
+        line-break: 30%;
+    }
+
+    .work-header h4{
+        font-size: 85%;
+        padding-bottom: 10px;
+    }
+
+    .work-header{
+        padding-bottom: 20px;
+    }
+
+    .home-icon{
+        font-size: 120%;
+    }
+
+    .number{
+        margin: 6px;
+    }
+
+    .grid-container-2cols{
+        padding: 0;
+        text-align: center;
+    }
+
+    .grid-2-cols{
+        margin: 0;
+    }
+
+    .grid-2-cols img{
+        height: 50vh;
+    }
+
+
+    .grid-items-2cols h3{
+        font-size: 140%;
+        margin: 0;
+    }
+
+    .explore-btn{
+        margin-right: 5rem;
+    }
+
+    .grid-cards-items img{
+        width: 100%;
+        height: 40vh;
+        overflow: hidden;
+    }
+
+    .grid-cards-items{
+        width: 80%;
+        height: 65vh;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .subscribe h3{
+        padding-top: 4rem;
+    }
+
+    .essential-header h2{
+        font-size: 120%;
+    }
+
+    .essential-header h4{
+        font-size: 90%;
+    }
+
+    .grid-6cols-items h3{
+        font-size: 100%;
+    }
+
+    .grid-6cols-items p{
+        font-size: 90%;
+    }
+
+    .grid-6cols-items{
+        padding: 10px;
+    }
+  
+
+}
+
+
+/* 
+@media screen and (max-width: 657px){
+      html{
+          
+      }
+
     .nav-items{
         display: none;
     }
@@ -446,6 +593,12 @@ footer h5{
     .grid-item{
         padding-top: 30px;
     }
+
+    .grid-items p{
+        font-size: 90%;
+    }
+
+
 
     .mobile{
         width: 70%;
@@ -474,6 +627,16 @@ footer h5{
         text-align: center;
     }
 
+    .grid-2-cols img{
+        height: 50vh;
+    }
+
+
+    .grid-items-2cols h3{
+        font-size: 140%;
+    }
+
+
     .explore-btn{
         margin-right: 5rem;
     }
@@ -492,17 +655,20 @@ footer h5{
   
     .grid-cards-items{
         width: 80%;
-        height: 73vh;
+        height: 65vh;
         margin-bottom: 20px;
         text-align: center;
     }
     
     .subscribe h3{
         padding-top: 4rem;
+    
+
+
     }
 }
 
 @media screen and (max-width: 768px){
     
-}
+} */
 
